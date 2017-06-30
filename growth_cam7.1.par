@@ -1,0 +1,71 @@
+Parameters for CAMBIUM subroutine (growth_cambium7.1.f95)
+Format for options - I4, par's - F10.3
+   0 -
+   0 -
+   0 -
+   0 -
+   0 -
+   0 -
+   0 -
+   1 - Write Data in Cambium program (changed if iteratition)
+   0 -
+   0 -
+The cellular constants (20)
+ 5.0      :1-  minimum cell size 9.0
+60.0      :2-  maximum cell size 60.0
+30.0      :3-  tangential cell size 30.0
+ 0.8      :4-  minimum cell wall thickness 1.5, 0.2, 0.4
+ 4.5      :5-  Amax maximum cell wall area 9.0
+ 2.0      :6-  minimum of lumen area (percent) 2.0
+ 1.0      :7-  minimum cell wall thickness 1.0
+          :8-
+          :9-
+ 9.0      :10- Size of dividing cell when it passes from G1 to S 8.0
+ 9.2      :11- Size of dividing cell when it passes from S to G2 9.0
+ 9.5      :12- Size of dividing cell when it passes from G2 to M 9.5
+10.0      :13- Size of dividing cell when it begins to divide 10.0
+          :14-
+          :15-
+          :16-
+          :17-
+          :18-
+          :19-
+50.0      :20- max number of cells in any cambial zone 50.0
+The control of division of cambium cells (20)
+ 0.5      :21- a
+ 0.1      :22- b 
+2.50      :23- k in V=a exp(-ky) + b
+0.018     :24- the min concentration of inhibitors for division
+ 0.6      :25- the coefficient of distribution of inhib. at division
+ 1.0      :26- the growth rate in S, G2 and M phases
+ 5.0      :27- the inhibitor in the initial cell
+ 0.0      :28-
+10.6      :29-
+-9.0      :30-
+ 0.5      :31-
+ 1.0      :32-
+          :33-
+504.0     :34-
+10000.0   :35-
+1000.0    :36-
+-2.0      :37-
+ 7.0      :38-
+15.0      :39-
+45.0      :40-
+End of file
+*******************************
+ch(:, :)  
+1 - the age of the cell - возраст клетки
+2 - the time spend in cambium
+3 - the distance of differentiation
+4 - the distance of cell 
+5 - the time switch to death stage
+6 - the initial cell size 
+7 - the ?
+8 - the size
+9 - the wall thickness - толщина стенки
+10 - the inhibitor - замедлитель 
+11 - the concentration - концентрация
+12 - ?
+***
+num ! number cells in the ring, cambium, enlargement, maturation
